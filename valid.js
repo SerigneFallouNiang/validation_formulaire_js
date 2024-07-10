@@ -33,6 +33,7 @@ form.nom.addEventListener('change',function(){
         e.preventDefault();
     if(validEmail(form.email) &&  validPassword(form.password) && validNom(form.nom)){
       form.submit();
+      
     }
     });
 
