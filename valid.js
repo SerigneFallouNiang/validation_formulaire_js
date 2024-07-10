@@ -31,10 +31,9 @@ form.nom.addEventListener('change',function(){
 // Ecouter la soumission du formulaire
     form.addEventListener('submit',function(e){
         e.preventDefault();
-    if(validEmail(form.email) &&  validPassword(form.password) && validNom(form.nom)){
-      form.submit();
-      
-    }
+        if (validEmail(form.email) && validPassword(form.password) && validNom(form.nom)) {
+            window.location.href = 'confirmation.html';
+        }
     });
 
 //********************** */ validation Email******************
