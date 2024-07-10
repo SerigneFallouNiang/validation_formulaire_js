@@ -1,0 +1,26 @@
+body {
+    background-image: url("img/simplon.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(206, 0, 51, 0.1);
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+.form-control:focus {
+    border-color: #5cb85c;
+    box-shadow: 0 0 5px rgba(92, 184, 92, 0.8);
+}
+.btn-secondary {
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+.my-4{
+    color: #ce0033;
+}
